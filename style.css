@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+
+#vung01 {
+  width: 160px;
+  min-height: 100vh;
+  background-color: #d3d3d3;
+  border-right: 1px solid #bbb;
+}
+
+#vung01 ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#vung01 ul li {
+  padding: 10px 16px;
+  border-bottom: 1px solid #bbb;
+}
+
+#vung01 ul li:first-child {
+  background-color: #666;
+  color: #fff;
+  font-weight: bold;
+}
+
+#vung02 {
+  flex: 1;
+  padding: 20px 30px;
+}
