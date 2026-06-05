@@ -8,8 +8,8 @@ body {
 #vung01 {
   width: 160px;
   min-height: 100vh;
-  background-color: #d3d3d3;
-  border-right: 1px solid #bbb;
+  background-color: #1a5276;
+  border-right: 1px solid #154360;
 }
 
 #vung01 ul {
@@ -20,11 +20,12 @@ body {
 
 #vung01 ul li {
   padding: 10px 16px;
-  border-bottom: 1px solid #bbb;
+  border-bottom: 1px solid #154360;
+  color: #aed6f1;
 }
 
 #vung01 ul li:first-child {
-  background-color: #666;
+  background-color: #154360;
   color: #fff;
   font-weight: bold;
 }
@@ -32,4 +33,14 @@ body {
 #vung02 {
   flex: 1;
   padding: 20px 30px;
+  background-color: #eaf4fb;
+  color: #1a5276;
+}
+
+#vung02 h1 {
+  color: #1a5276;
+}
+
+#vung02 h3 {
+  color: #2e86c1;
 }
